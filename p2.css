@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 400px;
+    height: 400px; 
+    
+}
+.cercle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.blanc {
+    background-color: white;
+}
